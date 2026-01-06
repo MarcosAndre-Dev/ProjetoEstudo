@@ -4,13 +4,9 @@ import java.io.FileInputStream;
 import java.io.IOException;
 import java.sql.Connection;
 import java.sql.DriverManager;
-<<<<<<< HEAD
 import java.sql.ResultSet;
 import java.sql.SQLException;
 import java.sql.Statement;
-=======
-import java.sql.SQLException;
->>>>>>> 424f8651b408ea611c075d4b627a36c2efa05cc0
 import java.util.Properties;
 
 public class DB {
@@ -51,7 +47,6 @@ public class DB {
 			throw new DbException(e.getMessage());
 		}
 	}
-<<<<<<< HEAD
 	
 	public static void closeStatement(Statement st) {
 		if (st != null) {
@@ -72,6 +67,4 @@ public class DB {
 			}
 		}
 	}
-=======
->>>>>>> 424f8651b408ea611c075d4b627a36c2efa05cc0
 }
